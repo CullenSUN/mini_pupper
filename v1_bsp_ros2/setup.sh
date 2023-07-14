@@ -49,7 +49,7 @@ source /opt/ros/humble/setup.bash
 
 mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
-git clone https://github.com/mangdangroboticsclub/mini_pupper_ros.git -b ros2
+git clone https://github.com/mangdangroboticsclub/mini_pupper_ros.git -b ros2-dev
 vcs import < mini_pupper_ros/.minipupper.repos --recursive
 # compiling gazebo and cartographer on Raspberry Pi is not recommended
 touch champ/champ/champ_gazebo/AMENT_IGNORE
